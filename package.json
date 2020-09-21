@@ -1,0 +1,28 @@
+{
+  "name": "startwars-names",
+  "version": "1.0.0",
+  "description": "Get random star wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/httol/starwars-names.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars",
+    "names"
+  ],
+  "author": "dingjianqun <895652159@qq.com> (http://dingjianqun.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/httol/starwars-names/issues"
+  },
+  "homepage": "https://github.com/httol/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
