@@ -43,8 +43,8 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     },
-    "ghook":{
-        "pre-commit":"npm run test:single"
+    "ghooks": {
+      "pre-commit": "npm run test:single"
     }
   }
 }
