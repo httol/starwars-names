@@ -32,4 +32,13 @@ describe('starwars name', function () {
       });
     });
   });
+
+  describe('getItemByIndex', function () {
+    it('shoule be return an item if pass a index number', function () {
+      var item = starWars.getItemByIndex(1);
+      expect(starWars.all).to.include(item);
+      var nullitem = starWars.getItemByIndex();
+      expect(nullitem).to.be.null;
+    });
+  });
 });
