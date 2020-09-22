@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var starWars = require('./index.js');
+import { expect } from 'chai';
+import starWars from './index.js';
 
 describe('starwars name', function () {
   describe('all', function () {
