@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "commit": "cz",
-    "test": "mocha src/index.test.js",
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js",
     "semantic-release": "semantic-release && npm publish"
   },
   "repository": {
@@ -41,6 +42,9 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
+    },
+    "ghook":{
+        "pre-commit":"npm run test:single"
     }
   }
 }
