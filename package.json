@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "cz",
     "test": "mocha src/index.test.js",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release && npm publish"
   },
   "repository": {
     "type": "git",
