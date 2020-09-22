@@ -23,7 +23,7 @@ function random(number) {
 function getItemByIndex(index) {
   var all = starWarsNames;
   if (index === undefined || index > all.length - 1) {
-    return null;
+    return "";
   } else {
     return all[index];
   }
