@@ -1,5 +1,5 @@
 {
-  "name": "startwars-names-httol",
+  "name": "startwars-names-djq",
   "version": "0.0.0-development",
   "description": "Get random star wars names",
   "main": "src/index.js",
