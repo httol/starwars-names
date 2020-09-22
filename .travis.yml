@@ -6,6 +6,8 @@ cache:
     - node_modules
 notifications:
   email: false
+before_install:
+  - npm install -g npm@6.1.4
 before_script:
   - npm prune
 script:
