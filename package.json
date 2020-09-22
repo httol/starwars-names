@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha src/index.test.js",
-    "semantic-release": "semantic-release prepare && npm publish && semantic-release publish"
+    "semantic-release": "npm publish && semantic-release publish"
   },
   "repository": {
     "type": "git",
