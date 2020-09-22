@@ -28,6 +28,9 @@
         "regenerator-runtime": "0.13.7",
         "unique-random-array": "2.0.0"
     },
+    "engines": {
+        "node": ">=10.0.0"
+    },
     "devDependencies": {
         "@babel/core": "7.11.6",
         "@babel/preset-env": "7.11.5",
