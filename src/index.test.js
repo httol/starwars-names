@@ -34,7 +34,7 @@ describe('starwars name', function () {
   });
 
   describe('getItemByIndex', function () {
-    it('shoule be return an item if pass an index number', function () {
+    it('shoule be return an item if pass index number', function () {
       var item = starWars.getItemByIndex(1);
       expect(starWars.all).to.include(item);
       var nullitem = starWars.getItemByIndex();
