@@ -86,5 +86,9 @@
     "presets": [
       "@babel/preset-env"
     ]
+  },
+  "release":{
+      "repositoryUrl":"https://github.com/httol/starwars-names.git"
   }
+  
 }
